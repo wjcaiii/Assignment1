@@ -54,3 +54,6 @@ Quantitative data(level of depression, sleep quality, living conditions, academi
 
 # Analysis Plan
 According to the dataset, each row represents a certain student’s health condition. The level of depression is related to the level of sleep quality, living conditions, academic performance, and social support. To find which factor has the greatest impact on depression, we can compare their correlation coefficients with depression. First, we need to filter out unnecessary columns and regard the table with useful data as a Dataframe. Second, we will apply corr() function to each factor with depression in Python. For example, the correlation coefficient of depression and sleep quality can be calculated by "df['depression'].corr(df['sleep quality'])". The higher the score is, the stronger the relationship is. At last, we can draw a conclusion after comparing the final results. 
+
+# References
+Liu, X. Q., Guo, Y. X., Zhang, W. J., & Gao, W. J. (2022). Influencing factors, prediction and prevention of depression in college students: A literature review. *World Journal of Psychiatry,* 12(7), 860.
